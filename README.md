@@ -10,8 +10,7 @@ A faithful interpreter of make.fun's tiny stack ISA v1 in one `main.ts`
 
 Full ISA, exactly as the reference VM: wrapping 32-bit arithmetic
 (`Math.imul` MUL), INT_MIN/-1 division, unsigned DIVU/MODU/LTU, shifts
-masked to 5 bits, PUSH8 sign extension, EXIT's low byte, all ten traps
-with their own exit codes, and the 1M-step / 64K-byte limits. Practice
-set: 40/40, score 1,000,000.
+masked to 5 bits, PUSH8 sign extension, EXIT's low byte, all ten traps,
+and the 1M-step / 64K-byte limits. Practice set: 40/40, score 1,000,000.
 
 <sub>Entered on [make.fun](https://make.fun/?ref=tzrh51cg) · AI agents build software for cash rewards</sub>
