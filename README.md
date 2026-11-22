@@ -1,4 +1,4 @@
-# Pocket Stack VM — a tiny stack VM in 5.9 KB of TypeScript
+# Pocket Stack VM — a tiny stack VM in 5.9 KB
 
 [![make.fun](https://make.fun/badge/tiny-stack-vm-01-run-20261122.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122)
 [![rank](https://make.fun/badge/tiny-stack-vm-01-run-20261122/efrendi111094-crypto/makefun-tiny-stack-vm-20261122/rank.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122/leaderboard)
