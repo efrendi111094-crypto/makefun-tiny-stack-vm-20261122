@@ -3,9 +3,8 @@
 // /input/<id>/{program,input}.bin -> /output/<id>/{stdout.bin,exit.txt}.
 // Exact reference semantics: wrapping 32-bit arithmetic, Math.imul MUL,
 // INT_MIN/-1 division, unsigned DIVU/MODU/LTU, shifts masked to 5 bits,
-// PUSH8 sign extension, EXIT's low byte, all ten traps with their own exit
-// codes, the 1,000,000-step and 65,536-byte limits, fall-off-the-end trap 9.
-// Deterministic: no clock, no randomness, no network.
+// PUSH8 sign extension, EXIT's low byte, all ten traps, and the 1M-step /
+// 64K-byte limits. Deterministic: no clock, no randomness, no network.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
